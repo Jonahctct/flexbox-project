@@ -20,7 +20,7 @@ header {
     color: #f9faf8;
 }
 
-header > a {
+a {
     text-decoration: none;
     color: #f9faf8;
 }
@@ -74,13 +74,15 @@ header > a {
 
 .content-container.three {
     align-items: center;
-
+    background-color: #e5e7eb;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     width: 500px;
+    font-style: italic;
+    font-size: 18px;
 }
 
 .quote.main {
@@ -89,21 +91,30 @@ header > a {
 
 .quote.signature {
     align-items: flex-end;
+    font-weight: 800;
 }
 
 .content-container.four {
-    
+    align-items: center;
 }
 
 .content-four {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+    width: 700px;
+    background-color: #3882f6;
 }
 
 .base-text {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    padding: 100px;
+    color: #f9faf8;
 }
 
 
@@ -111,6 +122,16 @@ header > a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+}
+
+.contact-us.two {
+    border: solid 2px white;
+
 }
 
 .img-main {
@@ -129,12 +150,38 @@ img {
     text-align: center;
 }
 
-.text {
-    width: 150px;
+.fish {
+    border-radius: 25px;
+    border: solid #3882f6;
+}
+
+.img-text {
+    width: 200px;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.main-text.one {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.main-text.three {
+    font-weight: bolder;
+    padding-bottom: 7px;
 }
 
 .footer-text {
     display: flex;
     justify-content: center;
     gap: 4px;
+    color: #e5e7eb;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 32px;
 }
